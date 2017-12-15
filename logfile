@@ -1,0 +1,25 @@
+2017-12-13 17:50:07.599 JST [1642] LOG:  listening on IPv6 address "::1", port 5432
+2017-12-13 17:50:07.599 JST [1642] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2017-12-13 17:50:07.624 JST [1642] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2017-12-13 17:50:07.776 JST [1643] LOG:  database system was shut down at 2017-12-13 17:47:45 JST
+2017-12-13 17:50:07.886 JST [1642] LOG:  database system is ready to accept connections
+2017-12-13 17:53:13.943 JST [1820] FATAL:  role "homestead" does not exist
+2017-12-13 17:57:22.776 JST [1873] ERROR:  role "homestead" does not exist
+2017-12-13 17:57:22.776 JST [1873] STATEMENT:  CREATE DATABASE homestead OWNER homestead;
+2017-12-13 17:58:57.018 JST [1891] FATAL:  database "mydatabase" does not exist
+2017-12-13 18:02:51.569 JST [1958] FATAL:  database "mydatabase" does not exist
+2017-12-13 18:15:20.402 JST [2085] FATAL:  database "mydatabase" does not exist
+2017-12-13 18:18:09.045 JST [2103] ERROR:  role "user_name" does not exist
+2017-12-13 18:18:09.045 JST [2103] STATEMENT:  CREATE DATABASE tagotest OWNER user_name;
+2017-12-13 18:25:08.002 JST [2175] FATAL:  role "homestead" does not exist
+2017-12-13 18:46:45.359 JST [2333] ERROR:  syntax error at or near "select" at character 26
+2017-12-13 18:46:45.359 JST [2333] STATEMENT:  select * from migrations
+	select * from migrations
+	select * from migrations;
+2017-12-13 18:53:00.444 JST [2333] ERROR:  syntax error at or near "exit" at character 1
+2017-12-13 18:53:00.444 JST [2333] STATEMENT:  exit
+	select * from migrations;
+2017-12-13 23:11:32.582 JST [1642] LOG:  received smart shutdown request
+2017-12-13 23:11:32.831 JST [1642] LOG:  worker process: logical replication launcher (PID 1649) exited with exit code 1
+2017-12-13 23:11:32.831 JST [1644] LOG:  shutting down
+2017-12-13 23:11:33.088 JST [1642] LOG:  database system is shut down
